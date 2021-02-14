@@ -1,9 +1,20 @@
-// cofihd dhfwefn iehfowfwf
-je0fjew0fhwj
-fje-fjwfjef-pjf
-wfjwe
--fjwe-fjwfjwf
-jf
-wjf
-e-fj-efjwefj
-fkwfjk
+//passando dados entre activitys
+
+private Button buttonEnviar;
+
+
+//on create
+
+buttonEnviar = findViewById(R.id.button);
+
+buttonEnviar.setOnClickListiner(new View.OnclickListiner) {
+   @Override
+   public void onClick(View v) {
+  
+   Intent intent = new Intent(getAplicationContext(),SengundaActivity.class);
+   intent.putExtra("KEY1", valor "NAME ");
+   intent.putExtra("KEY2", valor "30");
+   
+   StartActivity(intent);
+   
+   }
